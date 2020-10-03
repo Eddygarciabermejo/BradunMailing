@@ -6,37 +6,133 @@
     <title>Branddu</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;800&display=swap" rel="stylesheet">
+    <style>
+        @media (max-width: 600px) {
+            body{
+
+                background-color: white !important;
+                width: 100% !important;
+            }
+
+            header{
+                display: block !important;
+                width: 100% !important;
+                margin-left: 10% !important;
+            }
+
+            .div-logo{
+                text-align: center;
+            }
+
+            .div_header_text{
+                text-align: center;
+            }
+
+            .hero{
+                width: 100% !important;
+            }
+
+            .text_hero{
+                margin: 0px !important ;
+                padding-right: 0px !important;
+                
+                
+            }
+
+            .title1_hero{
+                width: 100% !important;
+                font-size: 80px !important;
+            }
+            .title2_hero{
+                width: 100% !important;
+                font-size: 50px !important;
+            }
+            .title3_hero{
+                width: 100% !important;
+                font-size: 40px !important;
+            }
+
+            .main{
+                width: 100% !important;
+                margin: 0px !important;
+            }
+
+            .main_title{
+                width: 100% !important;
+                text-align: center;
+                
+            }
+
+            .main_p{
+                width: 100% !important;
+                text-align: center;
+            }
+
+            .dise_tumi{
+                display: block !important;
+                margin: 0px !important;
+            }
+
+            .div_ima_tumi{
+                width: 100% !important;
+            }
+
+            .div_text_tumi{
+                width: 100% !important;
+                text-align: center !important;
+            }
+
+            .div_tumi_boton{
+
+                text-align: center !important;
+            }
+
+            .div_cotizacion{
+                display: block !important;
+            }
+
+            .div_cotizacion_image{
+                width: 100% !important;
+                
+            }
+
+            .div_cotizacion_p{
+                width: 100% !important;
+            }
+
+        }
+    </style>
 </head>
 <body  style="background-color:#f6f6f6 ;" >
     <header style="display: flex; background-color: white; margin-bottom: 10px;">
-        <div>
+        <div class="div-logo">
             <img class="logo" src="./assets/imagenes/logo.png" alt="" style="width: 25%; margin-left: 20%;">
         </div>
         <div style="display: flex;">
             <img class="header_animacion" src="./assets/imagenes/animacionheader.png" alt="" style="width:  25%;">
-            <div style="padding-top: 20px;">
+            <div class="div_header_text" style="padding-top: 20px;">
                 <p style="color: black; font-family: 'Montserrat'; font-weight: 800; " > <span style="color:#e40082 ;">Contacto:</span>  +57 317 427 8482</p>
                 <p style="color: black; font-family: 'Montserrat'; font-weight: 800; " > <span style="color:#e40082  ;">info@</span>branddu.com.co</p>
             </div>
         </div>
     </header>
     <section style="width: 100%; background-color: #42016c;">
-        <div style="margin: 0px 20%" >
+        <div class="hero" style="margin: 0px 20%" >
             <div style="background-image: url(./assets/imagenes/main.png); width: 100%; height: 65vh; background-size: cover; margin-top: -5px;"> 
-                <div style="text-align: right; margin-right: 10%; padding-top: 10%;" >
-                    <h1 style="color: #ffde3b;font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 110px; margin: 0px; " >+15 mil</h1>
-                    <h2 style="color: white;font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 60px; margin: 0px;" >productos</h2>
-                    <h3 style="color: white;font-family: 'Montserrat', sans-serif; font-weight: 400;margin: 0px; font-size: 25px;" >en una sola <strong>plataforma</strong> </h3>
-                    <h3 style="color: white;font-family: 'Montserrat', sans-serif; font-weight: 400;margin: 0px; font-size: 25px;" > <strong> 100% digital</strong> </h3>
+                <div class="text_hero" style="text-align: right; margin-right: 10%; padding-top: 10%;" >
+                    <h1 class="title1_hero" style="color: #ffde3b;font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 110px; margin: 0px; " >+15 mil</h1>
+                    <h2 class="title2_hero" style="color: white;font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 60px; margin: 0px;" >productos</h2>
+                    <h3 class="title3_hero" style="color: white;font-family: 'Montserrat', sans-serif; font-weight: 400;margin: 0px; font-size: 25px;" >en una sola <strong>plataforma</strong> </h3>
+                    <h3 class="title4_hero" style="color: white;font-family: 'Montserrat', sans-serif; font-weight: 400;margin: 0px; font-size: 25px;" > <strong> 100% digital</strong> </h3>
                     <input style="background-color: #e40082; color: white; border: none; padding: 20px 30px; border-radius: 50px;font-family: 'Montserrat', sans-serif; font-weight: 800; font-size: 20px; margin-top: 5%;"  type="submit" name="" id="" value="Ver productos">
                 </div>  
             </div>
         </div>
     </section>
-    <section style="margin: 0px 20%; background-color: white; padding: 5% 5%; border-bottom-left-radius: 30px ; border-bottom-right-radius: 30px; ">
+    <section class="main" style="margin: 0px 20%; background-color: white; padding: 5% 5%; border-bottom-left-radius: 30px ; border-bottom-right-radius: 30px; ">
         <div>
-            <h1 style="color: #e40082; font-family: 'Montserrat', sans-serif; font-weight: 800;  ">Hola [First Name]</h1>
-            <p style="color: #595959; font-family: 'Montserrat'; font-weight: 200; ">
+            <h1 class="main_title" style="color: #e40082; font-family: 'Montserrat', sans-serif; font-weight: 800;  ">Hola [First Name]</h1>
+            <p class="main_p" style="color: #595959; font-family: 'Montserrat'; font-weight: 200; ">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus viverra, quam sodales scelerisque
                 tempor, magna urna ullamcorper diam, a venenatis urna velit quis purus. Maecenas lobortis elit nec
                 sapien cursus laoreet. Vestibulum tristique purus quis porttitor sollicitudin. 
@@ -53,13 +149,13 @@
                 
             </div>
         </div>
-        <div style="display: flex;">
-            <div style="width: 50%;">
+        <div class="dise_tumi"  style="display: flex;">
+            <div class="div_ima_tumi" style="width: 50%;">
                 <img src="./assets/imagenes/mesa.png" alt="" style="width: 100%;" >
                 
             </div>
-            <div style="width: 50%; margin-bottom: 5%; padding: 5px;">
-                <h2 style="color: #e40082 ; font-family: 'Montserrat', sans-serif; font-weight: 800; margin-bottom: 0px;" >Diseñalo</h2>
+            <div class="div_text_tumi" style="width: 50%; margin-bottom: 5%; padding: 5px;">
+                <h2  style="color: #e40082 ; font-family: 'Montserrat', sans-serif; font-weight: 800; margin-bottom: 0px;" >Diseñalo</h2>
                 <h2 style="font-family: 'Montserrat', sans-serif; font-weight: 800; margin-top: 0px;">tu mismo</h2>
                 <p style="color: #595959; font-family: 'Montserrat'; font-weight: 200;" >
                     Lorem ipsum dolor sit amet, consectetur
@@ -67,16 +163,16 @@
                     scelerisque tempor, magna urna ullamcorper
                     diam, a venenatis urna velit quis purus. 
                 </p>
-                <div style="text-align: left;" >
+                <div class="div_tumi_boton" style="text-align: left;" >
                     <input type="submit" name="" id="" value="Ver más" style="background-color: white; padding: 20px 50px; color: #e40082;  font-family: 'Montserrat', sans-serif; font-weight: 800;font-size: 18px; border-color: #e40082; border-radius: 30px; ">
                 </div>
                 
     
             </div>
         </div>
-        <div style="display: flex;">
-            <div style="width: 50%;">
-                <div style="text-align: right;" >
+        <div class="div_cotizacion" style="display: flex;">
+            <div class="div_cotizacion_image" style="width: 50%;">
+                <div class="div_cotizacion_title" style="text-align: right;" >
                     <h2 style="color: #e40082; font-family: 'Montserrat', sans-serif; font-weight: 800; margin-bottom: 0px;" >Cotizaciones</h2>
                     <h2 style="font-family: 'Montserrat', sans-serif; font-weight: 800; margin-top: 0px; ">en línea</h3>
                 </div>
@@ -94,7 +190,7 @@
                 
                
             </div>
-            <div style="width: 50%"  >
+            <div class="div_cotizacion_p" style="width: 50%"  >
                 <img src="./assets/imagenes/mesa1.png" alt="" style="width: 100%;" >
 
             </div>
@@ -239,6 +335,9 @@
     <footer style="display: flex; justify-content: center;">
         <p style="color: #595959; font-family: 'Montserrat'; font-weight: 200;" >Copyright © 2020, Branddu S.A.S. Todos los derechos reservados.</p>
     </footer>
+
+
+    
     
 </body>
 </html>
